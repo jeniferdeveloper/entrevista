@@ -1,6 +1,21 @@
 <?php
+/* Questão 2
+Dizemos que dois números são amigos se cada um deles é igual a soma dos divisores do outro.
 
-// numeros amigos  = soma dos divisores um do outro de 1 a 100.000
+Um exemplo de números amigos são 284 e 220, pois os divisores de 220 são 1, 2, 4, 5, 10, 11, 20, 
+22, 44, 55 e 110. Efetuando a soma destes números obtemos o resultado 284.
+
+                    1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284
+
+E os divisores de 284 são 1, 2, 4, 71 e 142, efetuando a soma destes números obtemos 
+o resultado 220.
+
+                    1 + 2 + 4 + 71 + 142 = 220
+
+Sabendo disso faça um algoritimo que traga os números amigos entre 1 a 100.000.
+
+*/
+
 
 // $listaAceita = [0 => '220', 1 => '284', 2 => '5', 3 => '270'];
 
